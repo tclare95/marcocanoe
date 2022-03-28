@@ -1,9 +1,8 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import Link from "next/link";
-import bg from "../../public/images/DSC_7374.jpg";
-import bgOverlay from "../../public/css/images/overlay.png";
-
+import bg from "../../images/DSC_7374.jpg";
+import bgOverlay from "../../images/overlay.png";
 
 export default function Layout({ children, isFrontPage }) {
   return (
