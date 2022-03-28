@@ -4,7 +4,9 @@ export default function Header({ isAlt }) {
   return (
     <header id="header" className={isAlt ? "alt" : ""}>
       <h1>
-        <a href="/">MarcoPolo</a>
+          <Link href="/">
+        <a >MarcoPolo</a>
+        </Link>
       </h1>
       <nav id="nav">
         <ul>
