@@ -1,13 +1,16 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import Link from "next/link";
+import bg from "../../public/images/DSC_7374.jpg";
+import bgOverlay from "../../public/css/images/overlay.png";
+
 
 export default function Layout({ children, isFrontPage }) {
   return (
     <>
       <Header isAlt={isFrontPage ? true : false} />
       {isFrontPage ? (
-        <section id="banner">
+        <section id="banner" style={{backgroundImage: `url(${bg.src}), url(${bgOverlay.src})`}}>
           <h2>Marco Canoe Polo Club</h2>
           <p>Nottingham&apos;s Canoe Polo Club</p>
           <ul className="actions special">
