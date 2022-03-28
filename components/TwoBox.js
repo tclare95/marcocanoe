@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TwoBox() {
   return (
     <div className="row">
@@ -14,9 +16,9 @@ export default function TwoBox() {
           </p>
           <ul className="actions special">
             <li>
-              <a href="#" className="button alt">
-                Learn More
-              </a>
+              <Link href="#">
+                <a className="button alt">Learn More</a>
+              </Link>
             </li>
           </ul>
         </section>
@@ -34,9 +36,11 @@ export default function TwoBox() {
           </p>
           <ul className="actions special">
             <li>
-              <a href="#" className="button alt">
+            <Link href="#">
+              <a className="button alt">
                 Learn More
               </a>
+              </Link>
             </li>
           </ul>
         </section>

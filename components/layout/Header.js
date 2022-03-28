@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header({isAlt}) {
   return (
     <header id="header" className={isAlt ? "alt" : ""}>
@@ -5,7 +7,7 @@ export default function Header({isAlt}) {
       <nav id="nav">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/"><a >Home</a></Link>
           </li>
           {/* <li>
             <a href="#" className="icon solid fa-angle-down">
@@ -41,9 +43,9 @@ export default function Header({isAlt}) {
             </ul>
           </li> */}
           <li>
-            <a href="https://membermojo.co.uk/marco/" className="button">
+          <Link href="https://membermojo.co.uk/marco/"><a  className="button">
               Sign Up for Sessions
-            </a>
+            </a> </Link>
           </li>
         </ul>
       </nav>
