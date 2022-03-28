@@ -20,7 +20,7 @@ export default function Home() {
       <Layout isFrontPage={true}>
         <section className="box special">
           <header className="major">
-            <h2>Nottingham's Canoe Polo Club</h2>
+            <h2>Nottingham&apos;s Canoe Polo Club</h2>
             <p>
               We play polo on a lake in Nottingham. More words, to make this up to a few more lines. Many more words needed. Many many many many more. All hail the goose overlords
             </p>
