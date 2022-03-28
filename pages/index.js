@@ -18,7 +18,7 @@ export default function Home() {
         </Head>
     <BodyWrapper classType={"landing"}>
       <Layout isFrontPage={true}>
-        <section className="box special">
+        <section id="about" className="box special">
           <header className="major">
             <h2>Nottingham&apos;s Canoe Polo Club</h2>
             <p>

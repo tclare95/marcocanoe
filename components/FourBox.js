@@ -1,6 +1,6 @@
 export default function FourBox() {
   return (
-    <section id="about" className="box special features">
+    <section className="box special features">
       <div className="features-row">
         <section>
           <span className="icon solid major fa-calendar accent2"></span>
