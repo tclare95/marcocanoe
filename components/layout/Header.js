@@ -13,7 +13,19 @@ export default function Header({ isAlt }) {
               <a>Home</a>
             </Link>
           </li>
-          {/* <li>
+          
+          <li>
+            <Link href="https://membermojo.co.uk/marco/">
+              <a className="button">Sign Up for Sessions</a>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+/* <li>
             <a href="#" className="icon solid fa-angle-down">
               Layouts
             </a>
@@ -45,14 +57,4 @@ export default function Header({ isAlt }) {
                 </ul>
               </li>
             </ul>
-          </li> */}
-          <li>
-            <Link href="https://membermojo.co.uk/marco/">
-              <a className="button">Sign Up for Sessions</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
+          </li> */
