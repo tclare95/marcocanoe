@@ -1,11 +1,12 @@
 import Link from "next/link";
 
 export default function Header({ isAlt }) {
+   
   return (
     <header id="header" className={isAlt ? "alt" : ""}>
       <h1>
-          <Link href="/">
-        <a >MarcoPolo</a>
+        <Link href="/">
+          <a>Marco Canoe Polo Club</a>
         </Link>
       </h1>
       <nav id="nav">
@@ -15,7 +16,19 @@ export default function Header({ isAlt }) {
               <a>Home</a>
             </Link>
           </li>
-          
+
+          {/* <li>
+            <Link href="/committee">
+              <a>Committee</a>
+            </Link>
+          </li> */}
+
+          <li>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </li>
+
           <li>
             <Link href="https://membermojo.co.uk/marco/">
               <a className="button">Sign Up for Sessions</a>

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     <Head>
-            <title>Marco Canoe Polo Club</title>
+            <title>Marco Canoe Polo Club - Home</title>
             <meta property="og:title" content="Marco Canoe Polo Club" key="title" />
             <meta property="og:description" content="Nottingham's Canoe Polo Club" />
             <meta name="description" content="Nottingham's Canoe Polo Club"/>
@@ -22,7 +22,7 @@ export default function Home() {
           <header className="major">
             <h2>Nottingham&apos;s Canoe Polo Club</h2>
             <p>
-              We play polo on a lake in Nottingham. More words, to make this up to a few more lines. Many more words needed. Many many many many more. All hail the goose overlords
+              We are a friendly Canoe Polo Club based in Nottingham at the National Watersports Centre. Everyone is welcome at our sessions whether you are new to the sport or a seasoned player.
             </p>
           </header>
           <span className="image featured">

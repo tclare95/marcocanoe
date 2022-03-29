@@ -1,48 +1,36 @@
-import Link from "next/link";
+import Image from "next/image";
 
-export default function TwoBox() {
+export default function TwoBox({title1, bodyText1, image1, title2, bodyText2, image2}) {
   return (
     <div className="row">
       <div className="col-6 col-12-narrower">
         <section className="box special">
           <span className="image featured">
-            <img src="images/pic02.jpg" alt="" />
+          <Image
+              src={image2}
+              alt="General Sec"
+              layout="responsive"
+            />
           </span>
-          <h3>Sed lorem adipiscing</h3>
+          <h3>{title1}</h3>
           <p>
-            Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-            lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-            aliquam veroeros.
+            {bodyText1}
           </p>
-          <ul className="actions special">
-            <li>
-              <Link href="#">
-                <a className="button alt">Learn More</a>
-              </Link>
-            </li>
-          </ul>
         </section>
       </div>
       <div className="col-6 col-12-narrower">
         <section className="box special">
           <span className="image featured">
-            <img src="images/pic03.jpg" alt="" />
+          <Image
+              src={image2}
+              alt="General Sec"
+              layout="responsive"
+            />
           </span>
-          <h3>Accumsan integer</h3>
+          <h3>{title2}</h3>
           <p>
-            Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-            lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-            aliquam veroeros.
+            {bodyText2}
           </p>
-          <ul className="actions special">
-            <li>
-            <Link href="#">
-              <a className="button alt">
-                Learn More
-              </a>
-              </Link>
-            </li>
-          </ul>
         </section>
       </div>
     </div>

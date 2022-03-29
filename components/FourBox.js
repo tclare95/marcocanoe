@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FourBox() {
   return (
     <section className="box special features">
@@ -6,7 +8,7 @@ export default function FourBox() {
           <span className="icon solid major fa-calendar accent2"></span>
           <h3>Our Sessions</h3>
           <p>
-            We have sessions twice a week, on Sunday and Wednesday. These are held at the National Watersports Centre (See Below). For more details on sessions please get in touch.
+            We have sessions twice a week, on Sunday and Wednesday. These are held at the National Watersports Centre (See Below). For more details on sessions please <Link href="/contact"><a className="link">get in touch</a></Link>.
           </p>
         </section>
         <section>
@@ -22,14 +24,14 @@ export default function FourBox() {
           <span className="icon solid major fa-map accent4"></span>
           <h3>Our Location</h3>
           <p>
-            We are lucky to play at the British Canoe Polo home venue at the National Watersports Centre, Nottingham. These pitches are supposed to be good but are really owned by the ducks
+            We are lucky to play at the British Canoe Polo home venue at the National Watersports Centre, Nottingham. There are four pitches available to us on a sheltered lake with all pitches having floating goals and full walkways. 
           </p>
         </section>
         <section>
           <span className="icon solid major fa-question accent5"></span>
           <h3>Questions?</h3>
           <p>
-            We are always welcoming to new members. Whether you have never stepped foot in a kayak before or have played polo for years, please #get in touch# and come along for a taster session!
+            We are always welcoming to new members. Whether you have never stepped foot in a kayak before or have played polo for years, please <Link href="/contact"><a className="link">get in touch</a></Link> and come along for a taster session!
           </p>
         </section>
       </div>
