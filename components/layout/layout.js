@@ -43,11 +43,6 @@ export default function Layout({ children, isFrontPage }) {
           <p>Nottingham&apos;s Canoe Polo Club</p>
           <ul className="actions special">
             <li>
-              <Link href="https://membermojo.co.uk/marco/">
-                <a className="button primary">Sign up for Sessions</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/#about">
                 <a className="button">Learn more about Us</a>
               </Link>

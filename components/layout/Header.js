@@ -29,11 +29,6 @@ export default function Header({ isAlt }) {
             </Link>
           </li>
 
-          <li>
-            <Link href="https://membermojo.co.uk/marco/">
-              <a className="button">Sign Up for Sessions</a>
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
