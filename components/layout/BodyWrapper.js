@@ -24,10 +24,6 @@ export default function BodyWrapper({ children, classType }) {
           <Link href="/contact">
             <a className="link" >Contact</a>
           </Link>
-
-          <Link href="https://membermojo.co.uk/marco/">
-            <a className="link">Sign Up for Sessions</a>
-          </Link>
         </nav>
       </div>
     </div>
